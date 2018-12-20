@@ -3,10 +3,16 @@ import './App.css';
 
 class App extends Component {
   render() {
+let count = (
+  <div>Hello</div>
+)
+
     return (
       <div className="App">
-        <input></input>
-        <p></p>
+        <input
+        onChange></input>
+
+        <p>{count}</p>
       </div>
     );
   }
