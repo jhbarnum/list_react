@@ -9,14 +9,15 @@ inputCountHandler = (inputCount) => {
 
   render() {
 let count = (
-  <div>Hello</div>
+  <p>Hello</p>
 )
 
     return (
       <div className="App">
         <input
         onChange={this.inputCountHandler}></input>
-        <p>{count}</p>
+
+        <div>{count}</div>
       </div>
     );
   }
