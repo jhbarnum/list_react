@@ -3,8 +3,10 @@ import './App.css';
 
 class App extends Component {
   
-inputCountHandler = (inputCount) => {
-  console.log('counting')
+  inputCountHandler = (inputCount) => {
+    let letterCount = 0; 
+    letterCount++;
+  console.log('counting' + letterCount)
 }
 
   render() {
