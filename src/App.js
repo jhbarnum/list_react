@@ -6,9 +6,10 @@ class App extends Component {
   inputCountHandler = (inputCount) => {
     let letterCount = 0; 
     letterCount++;
+
     //let wordArray[] = letter;
 
-  console.log('counting' + letterCount)
+  console.log('counting' + letterCount )
 }
 
   render() {
