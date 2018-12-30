@@ -3,13 +3,11 @@ import './App.css';
 
 class App extends Component {
   
-  inputCountHandler = (inputCount) => {
-    let letterCount = 0; 
-    letterCount++;
+  inputCountHandler = (event, inputCount) => {
 
-    //let wordArray[] = letter;
+    let wordArray = event.target.value;
 
-  console.log('counting' + letterCount )
+  console.log('counting ' + wordArray.length + ' ' + wordArray)
 }
 
   render() {
