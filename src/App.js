@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import output from './output/output.js';
 
 class App extends Component {
   
@@ -16,16 +17,15 @@ class App extends Component {
   }
 
   render() {
-    let displayCount = (
-    <p>{this.letterCount} K</p>
-    )
+
 
   return (
     <div className="App">
       <input
       onChange={this.inputCountHandler}></input>
-
-      <div>{displayCount}</div>
+      <div><output 
+        count={this.inputCountHandler} />
+      </div>
     </div>
   );
   }
